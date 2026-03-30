@@ -19,4 +19,4 @@ jobs:
       - name: Test model training
         run: python train_model.py
       - name: Test bot import
-        run: python -c "import bot; print('✅ Bot loads successfully')"
+        run: python -c "import bot; print(' Bot loads successfully')"
